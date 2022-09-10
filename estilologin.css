@@ -1,0 +1,65 @@
+@import 'mediaqueries.css';
+*{
+    /*margin: 0 auto; Centra el formulario*/
+
+    box-sizing: border-box;
+
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #ffb348;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+}
+
+.login{
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    background-color: rgb(252, 252, 252);
+    color:  #f8540d;
+    font-weight: bold;
+    /* Centrar el login  esto va acompañado de position relative de body*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+input{
+    outline: none; /*quitar el bordillo resaltado*/
+    border: 1px solid #CCC;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.form-control:focus{
+    border-color:  rgb(120, 24, 24);
+}
+
+label{
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btn-primary{
+    width: 25%;
+    height: 30px;
+    background-color:  #f8540d; 
+    border-radius: 20px;  
+    border: 1px solid #E1E1E1;
+    cursor: pointer;/*Cambiar el cursor al situarse en el botón*/
+}
+
+
