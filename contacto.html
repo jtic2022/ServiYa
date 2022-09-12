@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios ServiYa</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto ServiYa</title>
+    <link rel="stylesheet" href="estilocontacto.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <!--https://getbootstrap.com/docs/5.0/getting-started/introduction/ **CSS**<link....-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,7 +31,7 @@
                     <li><a href="principal.html">Inicio</a></li>
                     <li><a href="registro.html">Registrarse</a></li>
                     <li><a href="services.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
                 <!--Actuatilizamos icónos **línea 20 link...fontawesome-->
                 <!--Cuando le demos clic a este icóno se va ha desplegar.-->
@@ -41,22 +41,21 @@
             </nav>
         </header>
         <main class="main">
-            <div class="content-info">
-                <h1 class="display-1">ServiYa</h1>
-                <!--Bootstrap-->
-                <h3>Tu servicio a la mano</h3><br>
-                <div class="button-content">
-                    <ul>
-                        <li>Paga tus bancos</li>
-                        <li>Paga tus facturas</li>
-                        <li>Envía o recibe encomiendas</li>
-                        <li>Envía o recibe correspondencia</li>
-                        <li>Compra tu mercado</li>
-                        <li>Recoge o envía lo que se te olvide</li>
-                        <p>En ServiYa estamos para colaborarte en lo que necesites</p>
-                    </ul>
-                </div>
+        </div>
+        <form action="" class="login">
+            <div class="form-group">
+                <label for="">Nombre</label><br>
+                <input type="text" class="form-control" name="name"  placeholder="Escriba aquí tu nombre"><br>
+                <label for="">Correo Electrónico</label><br>
+                <input type="e-mail" class="form-control" name="email" placeholder="alguien@algo.com"><br>
+                <label for="">Mensaje</label><br>
+                <textarea name="menssagge" cols="50" rows="10" placeholder="Escriba aquí su mensaje" class="input"></textarea>
             </div>
+            <br>
+            <div class="button">
+            <button class="btn-send" onclick="">Enviar</button><br>
+            </div>
+        </form>
         </main>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

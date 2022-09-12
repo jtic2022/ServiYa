@@ -10,8 +10,14 @@ menu_bar.addEventListener('click', function(){/*Escuchador de los eventos. Cuand
 
 });
 
-let login = document.getElementsByClassName('menu-bar');
-                login.addEventListener('click', function () {
-
-                    this.nextElementSibling.classList.add('form');
-                });
+/*Efecto en registro*/
+var inputs = document.getElementsByClassName('formulario_input');
+for (var i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('keyup', function () {
+        if (this.value.length >= 1) {
+            this.nextElementSibling.classList.add('fijar');
+        } else {
+            this.nextElementSibling.classList.remove('fijar');
+        }
+    });
+}
