@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios ServiYa</title>
+    <title>Registro ServiYa</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <!--https://getbootstrap.com/docs/5.0/getting-started/introduction/ **CSS**<link....-->
@@ -25,7 +26,6 @@
                     <img src="logo.png" width="60px" height="70px" alt="">
                 </div>
                 <!--creamos el menú-->
-
                 <ul class="menu" id="menu">
                     <!--lo ubicamos con js-->
                     <li><a href="principal-inicio.html">Inicio</a></li>
@@ -34,7 +34,7 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
                 <!--Actuatilizamos icónos **línea 20 link...fontawesome-->
-                <!--Cuando le demos clic a este icóno se va ha desplegar.-->
+                <!--Cuando le demos clic a este icóno se va a desplegar.-->
                 <div class="menu-bar">
                     <i class="fas fa-bars" id="menu-bar"></i>
                 </div>
@@ -45,22 +45,20 @@
                 <h1 class="display-1">ServiYa</h1>
                 <!--Bootstrap-->
                 <h3>Tu servicio a la mano</h3><br>
+                <p>FORMULARIO DE REGISTRO</p>
                 <div class="button-content">
-                    <ul>
-                        <li>Paga tus bancos</li>
-                        <li>Paga tus facturas</li>
-                        <li>Envía o recibe encomiendas</li>
-                        <li>Envía o recibe correspondencia</li>
-                        <li>Compra tu mercado</li>
-                        <li>Recoge o envía lo que se te olvide</li>
-                        <p>En ServiYa estamos para colaborarte en lo que necesites</p>
-                    </ul>
+                    <!--se inserta una etiqueta de enlace y dentro de ella el botón que
+                    redirige a la página de inicio de sesión -->
+                    <a href="registro-usuario.html">
+                        <button class="btn-toStart">Usuario</button>
+                    </a>
+                    <br>
+                    <a href="registro-domic.html">
+                        <button class="btn-toStart">Domiciliario</button>
+                    </a>
                 </div>
             </div>
         </main>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
-</body>
-
-</html>

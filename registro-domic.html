@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro ServiYa</title>
+    <title>Registro Domiciliario ServiYa</title>
     <link rel="stylesheet" href="estiloreg.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <!--https://getbootstrap.com/docs/5.0/getting-started/introduction/ **CSS**<link....-->
@@ -29,8 +29,8 @@
 
                 <ul class="menu" id="menu">
                     <!--lo ubicamos con js-->
-                    <li><a href="principal.html">Inicio</a></li>
-                    <li><a href="registro.html">Registrarse</a></li>
+                    <li><a href="principal-inicio.html">Inicio</a></li>
+                    <li><a href="registro-principal.html">Registrarse</a></li>
                     <li><a href="services.html">Servicios</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
@@ -43,7 +43,7 @@
         </header>
         <div class="form">
             <form action="" class="formulario">
-                <h1 class="formulario_titulo"> Datos de registro </h1>
+                <h1 class="formulario_titulo"> Datos de registro domiciliario </h1>
                 <input type="text" class="formulario_input" id="nombre">
                 <label for="" class="formulario_label"> Nombres </label>
                 <input type="text"  class="formulario_input" id="apellido">
@@ -64,6 +64,10 @@
                 <label for="" class="formulario_label"> Nick </label>
                 <input type="password" class="formulario_input" id="contraseña">
                 <label for="" class="formulario_label"> Contraseña </label>
+                <label for="" class="cargue"> Subir foto de cédula en ambas caras </label>
+                <input type="file" name="imagenid" class="cargue-imagen" accept="png, .jpeg, .jpg, image/*">
+                <label for="" class="cargue"> Foto actual </label>
+                <input type="file" name="imagenfoto" class="cargue-imagen" accept="png, .jpeg, .jpg, image/*">
                 <div class="button">
                 <button class="btn-reg" onclick="">Registrar</button><br>
                 </div>

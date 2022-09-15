@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios ServiYa</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Login domiciliario ServiYa</title>
+    <link rel="stylesheet" href="estilologin.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <!--https://getbootstrap.com/docs/5.0/getting-started/introduction/ **CSS**<link....-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,23 +41,25 @@
                 </div>
             </nav>
         </header>
+
         <main class="main">
-            <div class="content-info">
-                <h1 class="display-1">ServiYa</h1>
-                <!--Bootstrap-->
-                <h3>Tu servicio a la mano</h3><br>
-                <div class="button-content">
-                    <ul>
-                        <li>Paga tus bancos</li>
-                        <li>Paga tus facturas</li>
-                        <li>Envía o recibe encomiendas</li>
-                        <li>Envía o recibe correspondencia</li>
-                        <li>Compra tu mercado</li>
-                        <li>Recoge o envía lo que se te olvide</li>
-                        <p>En ServiYa estamos para colaborarte en lo que necesites</p>
-                    </ul>
+            <form action="" class="login">
+                <h2>Domiciliario</h2>
+                <div class="form-group">
+                    <label for="">Correo o Nick</label><br>
+                    <input type="text" class="form-control" name="name" id="name-login" placeholder="Escriba aquí su nombre"><br>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="">Contraseña</label><br>
+                    <input type="text" class="form-control" name="password" id="password-login" placeholder="Escriba aquí su contraseña"><br>
+                </div>
+                <br>
+                <div class="button">
+                <button class="btn-primary" onclick="">Acceder</button><br>
+                <a href="#">¿Olvidó su contraseña?</a>
+                </div>
+                
+            </form>
         </main>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

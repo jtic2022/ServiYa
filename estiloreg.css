@@ -70,19 +70,19 @@ body{
     color: #fff;/*Color de la líneas*/
 }
 
-/*form SECTION*/
+/*FORMULARIO SECTION*/
 
 h1{
     padding-left: 12px;
 }
 
 .formulario{
-    width: 500px;
+    width: 400px;
     max-width: 100%;
     margin: auto;
-    margin-top: 10px;/*Espacio entre el borde la pantalla y el form*/
+    margin-top: 50px;/*Espacio entre el borde la pantalla y el form*/
     padding: 10px; /*Espacio entre el borde del form y los campos de texto, efecto de alargue de la caja de formulario*/
-    background-color: #f8540d;
+    background-color:  #fa9829;
 }
 .formulario_titulo{
     text-align: center;
@@ -95,8 +95,7 @@ h1{
     height: 30px;
     font-size: 1.3em;
     outline: none; /*quitar el bordillo resaltado*/
-    border: 1px solid #CCC;
-    
+    border: 1px solid #CCC;    
 }
 .formulario_input{
     padding: 20px;/* alto de los campos de texto*/
@@ -110,7 +109,12 @@ h1{
     max-width: 50%;
     color:rgba(0, 0, 0, 0.7);
     /* colocar después de la animación de focus +*/
-    transition: all 0.2s;
+    transition: all 0.4s;
+}
+.cargue{
+    padding: 10px;/* alto de los campos de texto*/
+    display: block;
+    color: #000; 
 }
 .button{
     display: flex;
@@ -118,6 +122,7 @@ h1{
     align-items: center; 
 }
 .btn-reg{
+    margin: 20px;
     width: 25%;
     height: 30px; 
     border-radius: 20px;  
